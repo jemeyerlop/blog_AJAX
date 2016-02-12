@@ -1,0 +1,74 @@
+nav{
+	background-color: #99ccff;
+	}
+#menu li a:link, #menu li a:visited {
+	color:#404040;
+}
+#menu li a:hover, #menu li a:active {
+	color:#000;
+}
+.contenido{
+	margin:0px 0 20px 0;
+}
+#breadcrumb{
+	float: left;
+	width: 96%;
+	height: auto;
+	margin: 10px 2%;
+	padding: 0;
+}
+#breadcrumb ul{
+	list-style-type:none;
+}
+#breadcrumb a:link,#breadcrumb a:visited{
+	color:#505050;
+}
+#breadcrumb a:hover,#breadcrumb a:active{
+	color:#000;
+}
+#breadcrumb p{
+	font-size: 1.4em;
+}
+#breadcrumb a:last-of-type{
+	color:#000;
+	font-weight: bold;
+	text-decoration: underline;
+	cursor: default;
+}
+
+/*botones grandes de navegacion*/
+
+.botonGrande{
+	display: block;
+	float: left;
+	width: 30%;
+	height: 60px;
+	margin: 0 1.666%;
+	padding: 0;
+	background-color: #252525;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	font-size: 2.4em;
+	font-family: 'Cantarell', sans-serif;
+	text-align: center;
+	line-height: 55px;
+	}
+.botonGrande:link,.botonGrande:visited{
+	color: #99ccff;
+	}
+.botonGrande:hover,.botonGrande:active{
+	color: #FFF;
+	background-color: #353535;
+	}
+/*tabla*/
+
+.contenedorTabla{
+	margin:0 10%;
+	width:80%;
+}
+/*paginacion*/
+.paginacion{
+	margin: 0 10% 10px 10%;
+	width: 80%;
+}

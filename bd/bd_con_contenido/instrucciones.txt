@@ -1,0 +1,5 @@
+no se debe eliminar la categoría id 1 llamada stand_by
+
+El usuario de id 1 debe ser el administrador y su rol es 1 también. Si se altera ese orden se estropea el envío de correo, ya que es siempre al email del usuario de id 1 y rol 1. El administrador en la bd reseteada tiene contraseña 123456 y ya viene con el email jemeyerlop@gmail.com
+
+los demás usuarios que se registren desde el frontend quedan con rol 2 y solo pueden comentar en los artículos una vez loggeados, al igual que el usuario de rol 1, pero no pueden acceder a la administración.
